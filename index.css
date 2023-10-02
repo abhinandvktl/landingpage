@@ -41,6 +41,9 @@
     color: rgb(255, 216, 132);   
     font-size: 20px; 
   }
+  nav ul li a:hover{
+    color: rgb(0, 0, 0);
+  }
 
   .title{
     margin-left: 8%;
@@ -68,6 +71,9 @@
     border-radius: 20px;
 
   }
+  .title a:hover{
+    color: black;
+  }
 
   .heading{
     color: white;
@@ -90,5 +96,19 @@
     justify-content: center;  
     margin: 0 10px;  
 
+  }
+
+  .info-box i{
+    padding: 20px;
+    color: #838383;
 
   }
+
+
+  a i {
+    transition: all 0.3s linear;
+}
+a:hover i {
+    transform: scale(1.5);
+    color: rgb(255, 255, 255);
+}
